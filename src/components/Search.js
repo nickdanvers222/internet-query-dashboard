@@ -8,7 +8,7 @@ const Search = (props) => {
       };
     return (
         <div className='search-division' id='flags'>
-            <h1>Search here</h1>
+            <h1>Category Search</h1>
             <input value={props.textState} onClick={()=>{navigation('#flags')}}onChange={(event)=>{
                 props.setTextState(event.target.value);
                 }}

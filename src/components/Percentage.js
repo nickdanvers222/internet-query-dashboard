@@ -7,7 +7,7 @@ const Percentage = (props) =>{
         <div className='bar-chart'>
             <Bar 
             data={props.data}
-            width='800'
+            width='900'
             height='450'
             />
         </div>
