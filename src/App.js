@@ -62,7 +62,7 @@ const [state, setState] = useState({
       </div>
       <Search textState={textState} setTextState={setTextState}/>
       <div  className='lower-division'>
-        {flagState.filter((item) => item.name.match(textState)).map((item)=> <Flag name={item.name} number={item.number} riskCode={item.riskCode}/> )}
+        {flagState.filter((item) => item.name.toLowerCase().match(textState.toLowerCase())).map((item)=> <Flag name={item.name} number={item.number} riskCode={item.riskCode}/> )}
        
       </div>
 

@@ -28,6 +28,7 @@
   justify-content:space-around;
   height:70vh;
   margin:2vh;
+  padding: 2vw;
 }
 .percentage {
   border:1px solid black;
@@ -57,7 +58,7 @@
 }
 
 .search-division {
-  background-color: rgba(255, 216, 173, 1);
+  background-color: white;
   box-shadow: 0 20px 20px rgba(0,0,0,.08);
   height:13vh;
   width:50vw;
@@ -71,9 +72,10 @@
 .search-input {
   width:15vw;
   border:0;
-  border-radius:30px;
-  height:3vh;
+  border-bottom: 1px solid black;
+    height:3vh;
   text-align: center;
+  background-color:white;
 }
 .flag-value {
   font-size:4em;
@@ -100,10 +102,9 @@
 .nav-navigation {
   display:flex;
   flex-direction:row;
-  justify-content:space-between;
+  justify-content:space-around;
   width:20vw;
-  margin-right:3vw
-
+  margin-right: 7vw;
 }
 .navigation-text {
   cursor:pointer;
